@@ -23,18 +23,17 @@ The dataset consists of 2571 images of six different currency denominations, spl
 
 **Dataset**
 
-We developed two models to recognize Indian currency notes based on denomination: Decision Trees and Convolutional Neural Networks. Following training, we evaluated both models' classification accuracy on an unseen training dataset.
+Two models were developed to recognize Indian currency notes based on denomination: Decision Trees and Convolutional Neural Networks. After training, both models' classification accuracy was evaluated on an unseen training dataset.
 
-Before beginning the training process, we analyzed our dataset, which consisted of 2571 images. We carefully examined a selection of images, including their dimensions (height, width, and color channels). Our images varies significanly due to real-world factors such as image quality, lighting conditions, and camera angle. It's worth noting that many of the images depicted only partial views of the currency notes. Our analysis led us to conclude that our models would be challenged when identifying currency in various conditions, resulting in lower classification accuracy than if we had used clear images.
+Before starting the training process, the dataset, consisting of 2571 images, was analyzed. A selection of images, including their dimensions (height, width, and color channels), was carefully examined. Images varied significantly due to real-world factors such as image quality, lighting conditions, and camera angle. Many of the images depicted only partial views of the currency notes. The analysis concluded that models would face challenges identifying currency in various conditions, resulting in lower classification accuracy than if clear images were used.
 
-For example, due to variations in lighting, using the currency's color alone may not be as effective as using consistent coloring. Similarly, large differences in the background could cause the models to focus on incorrect patterns. That being said, we were confident in our dataset choice. Tt provided a diverse set of real-world images that would help our models perform well in real-world scenarios which was the goal of this project. We trained both Decision Trees and Convolutional Neural Networks models using the dataset and evaluated their classification accuracy on an unseen training dataset.
+The dataset choice was deemed appropriate, providing a diverse set of real-world images that would help models perform well in real-world scenarios, which was the goal of this project. Both Decision Trees and Convolutional Neural Networks models were trained using the dataset and evaluated for classification accuracy on an unseen training dataset.
 
 **Decision Trees**
 
-Our initial approach involved training decision trees, even though we anticipated that they might not perform as well as CNNs. This is because CNN's  are more adept at complex image classification. Using decision trees would allow us to establish a baseline to compare the performance of our CNN models and establish their superiority.
+Initially, decision trees were trained, even though it was anticipated that they might not perform as well as CNNs, which are more adept at complex image classification. Using decision trees allowed establishing a baseline to compare the performance of CNN models and establishing their superiority.
 
-To optimize our decision tree models, we experimented with three different feature engineering techniques. Prior to training, we divided our dataset into validation, training, and testing sets, with the testing set remaining unseen by the model. We also employed one-hot encoding to represent the labels. Additionally, we flattened the image data into one-dimensional vectors, as this is the format that the models expect for input data.
-
+To optimize decision tree models, three different feature engineering techniques were experimented with. Prior to training, the dataset was divided into validation, training, and testing sets, with the testing set remaining unseen by the model. One-hot encoding was employed to represent the labels. Additionally, image data was flattened into one-dimensional vectors, as this is the format that the models expect for input data.
 
 
 1.   SelectKBest
@@ -85,6 +84,18 @@ We then compiled the model using the Adam optimizer, SparseCategoricalCrossentro
 
 Our model was then trained with the training and validation datasets for 20 epochs, achieving a validation accuracy of up to 65%. Finally, we tested the model using the testing dataset. Despite the challenging nature of our dataset, with low-quality and unclear images, our model achieved an impressive accuracy of 60.511%. Overall, our approach resulted in an effective model for image recognition, significantly surpassing the accuracy of our Decision Tree baseline.
 
+![image](https://user-images.githubusercontent.com/40481691/235975182-41d68f27-6d84-46e4-b671-0ecb1fe1051a.png)
+
+
+![image](https://user-images.githubusercontent.com/40481691/235975536-7249f62a-2365-40f8-9cc7-430cc882c414.png)
+
+
+
+![image](https://user-images.githubusercontent.com/40481691/235975318-9c92f18c-a333-43d9-82f0-470f07b7100b.png)
+
+
+
+
 
 
 ### ***Pre-Trained Model***
@@ -95,4 +106,16 @@ The main purpose of VGG16 is to classify images into one of a thousand possible 
 After training VGG16 on our training dataset with 10 epochs, we were able to achieve an impressive 80% accuracy on our testing dataset. This result is a testament to the power and effectiveness of the VGG16 architecture in image classification tasks.
 
 Though VGG16 outperformed our own model in terms of accuracy we were still satisfied with the performance of our model. We were able to achieve a comparable level of accuracy despite having a smaller architecture and fewer training epochs. Overall, we believe that our approach demonstrates the potential of deep learning models in image recognition tasks.
+
+![image](https://user-images.githubusercontent.com/40481691/235974824-de4d5eab-34da-4ca1-86ab-4a6490a53595.png)
+
+
+![image](https://user-images.githubusercontent.com/40481691/235975683-7ca00a5d-e409-48f9-9c17-94458b346cfe.png)
+
+![image](https://user-images.githubusercontent.com/40481691/235975770-a2fc583d-4388-4cd9-bcbc-73bc5cf62942.png)
+
+![image](https://user-images.githubusercontent.com/40481691/235975853-5f9c7799-2fcf-480a-906b-c048fa164cdd.png)
+
+
+
 
