@@ -92,7 +92,8 @@ Our model was then trained with the training and validation datasets for 20 epoc
 
 ![image](https://user-images.githubusercontent.com/40481691/235975182-41d68f27-6d84-46e4-b671-0ecb1fe1051a.png)
 
-### **Custom Model Sample Classifications:***
+### ***Custom Model Sample Classifications:***
+
 ![image](https://user-images.githubusercontent.com/40481691/235975318-9c92f18c-a333-43d9-82f0-470f07b7100b.png)
 
 
@@ -112,9 +113,15 @@ Though VGG16 outperformed our own model in terms of accuracy we were still satis
 ![image](https://user-images.githubusercontent.com/40481691/235974824-de4d5eab-34da-4ca1-86ab-4a6490a53595.png)
 
 
+### ***Pre-Trained Training Results:***
+
 ![image](https://user-images.githubusercontent.com/40481691/235975683-7ca00a5d-e409-48f9-9c17-94458b346cfe.png)
 
+### ***Pre-Trained Confusion Matrix:***
+
 ![image](https://user-images.githubusercontent.com/40481691/235975770-a2fc583d-4388-4cd9-bcbc-73bc5cf62942.png)
+
+### ***Pre-Trained Sample Classifications:***
 
 ![image](https://user-images.githubusercontent.com/40481691/235975853-5f9c7799-2fcf-480a-906b-c048fa164cdd.png)
 
