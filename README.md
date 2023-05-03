@@ -13,6 +13,6 @@ This problem presents a unique opportunity to study and implement various machin
 
 # Dataset:
 
-The dataset consists of 2571 images of six different currency denominations, split into six files representing each denomination. Below are sample images pulled from the dataset.
+The dataset consists of 2571 images of six different currency denominations, split into six files representing each denomination. Below are sample images pulled from the dataset:
 
 ![Image samples from dataset](https://user-images.githubusercontent.com/40481691/235971927-7260103b-cee4-44e3-ba53-e1cddef04358.png)
