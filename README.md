@@ -84,13 +84,15 @@ We then compiled the model using the Adam optimizer, SparseCategoricalCrossentro
 
 Our model was then trained with the training and validation datasets for 20 epochs, achieving a validation accuracy of up to 65%. Finally, we tested the model using the testing dataset. Despite the challenging nature of our dataset, with low-quality and unclear images, our model achieved an impressive accuracy of 60.511%. Overall, our approach resulted in an effective model for image recognition, significantly surpassing the accuracy of our Decision Tree baseline.
 
-![image](https://user-images.githubusercontent.com/40481691/235975182-41d68f27-6d84-46e4-b671-0ecb1fe1051a.png)
-
+### ***Custom Model Training Results:***
 
 ![image](https://user-images.githubusercontent.com/40481691/235975536-7249f62a-2365-40f8-9cc7-430cc882c414.png)
 
+### ***Custom Model Confusion Matrix:***
 
+![image](https://user-images.githubusercontent.com/40481691/235975182-41d68f27-6d84-46e4-b671-0ecb1fe1051a.png)
 
+### **Custom Model Sample Classifications:***
 ![image](https://user-images.githubusercontent.com/40481691/235975318-9c92f18c-a333-43d9-82f0-470f07b7100b.png)
 
 
