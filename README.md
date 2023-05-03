@@ -107,14 +107,14 @@ After training VGG16 on our training dataset with 10 epochs, we were able to ach
 
 Though VGG16 outperformed our own model in terms of accuracy we were still satisfied with the performance of our model. We were able to achieve a comparable level of accuracy despite having a smaller architecture and fewer training epochs. Overall, we believe that our approach demonstrates the potential of deep learning models in image recognition tasks.
 
-![image](https://user-images.githubusercontent.com/40481691/235974824-de4d5eab-34da-4ca1-86ab-4a6490a53595.png =250x250)
+![image](https://user-images.githubusercontent.com/40481691/235974824-de4d5eab-34da-4ca1-86ab-4a6490a53595.png)
 
 
-![image](https://user-images.githubusercontent.com/40481691/235975683-7ca00a5d-e409-48f9-9c17-94458b346cfe.png =250x250)
+![image](https://user-images.githubusercontent.com/40481691/235975683-7ca00a5d-e409-48f9-9c17-94458b346cfe.png)
 
-![image](https://user-images.githubusercontent.com/40481691/235975770-a2fc583d-4388-4cd9-bcbc-73bc5cf62942.png =250x250)
+![image](https://user-images.githubusercontent.com/40481691/235975770-a2fc583d-4388-4cd9-bcbc-73bc5cf62942.png)
 
-![image](https://user-images.githubusercontent.com/40481691/235975853-5f9c7799-2fcf-480a-906b-c048fa164cdd.png =250x250)
+![image](https://user-images.githubusercontent.com/40481691/235975853-5f9c7799-2fcf-480a-906b-c048fa164cdd.png)
 
 
 
