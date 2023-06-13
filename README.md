@@ -2,7 +2,7 @@
 
 # Business Problem:
 
-This project aims to develop an image recognition model capable of identifying currency note denominations based on visual features. The model should recognize all banknote denominations in different currency types in real-world situations, despite environmental factors such as image quality, lighting conditions, and camera angle. Models have been trained to identify six denominations of Indian Currency (Rs 10, Rs 20, Rs 50, Rs 100, Rs 200, Rs 500, and Rs 2000) using two types: Decision Trees and Convolutional Neural Networks. The approach involved training three Decision Trees with distinct feature engineering techniques and exploring two CNNs - one built from scratch and another leveraging a pre-trained model. The performance of these models and business insights are discussed in the conclusion.
+This project aims to develop a computer vision image recognition model capable of identifying currency note denominations based on visual features. The model should recognize all banknote denominations in different currency types in real-world situations, despite environmental factors such as image quality, lighting conditions, and camera angle. Models have been trained to identify six denominations of Indian Currency (Rs 10, Rs 20, Rs 50, Rs 100, Rs 200, Rs 500, and Rs 2000) using two types: Decision Trees and Convolutional Neural Networks. The approach involved training three Decision Trees with distinct feature engineering techniques and exploring two CNNs - one built from scratch and another leveraging a pre-trained model. The performance of these models and business insights are discussed in the conclusion.
 
 # Dataset:
 
